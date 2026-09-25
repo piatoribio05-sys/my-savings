@@ -1,0 +1,68 @@
+body {
+
+    font-family: Arial,sans-serif;
+    background-color:#ffe4ec;
+    text-align: center;
+    padding: 50px;
+}
+
+/* WEBSITE TITLE */
+
+h1 {
+    color: #d63384;
+}
+
+/* TOTAL SAVINGS BOX */
+
+.savings-box {
+
+    background-color: white;
+    width:350px;
+    margin:30px auto;
+    padding: 25px;
+    border-radius:15px;
+}
+
+/*TOTAL AMOUNT*/
+
+#total {
+    color:#198754;
+    font-size: 40px;
+}
+
+/* INPUT AREA */
+
+.input-box { 
+
+background-color: white;
+width: 350px;
+margin: 20px auto;
+padding: 25px;
+border-radius: 15px;
+
+}
+
+/* INPUT */
+
+input {
+    padding: 12px;
+    width:200px;
+    font-size: 16px;
+}
+
+/* BUTTON */    
+    button {
+        padding:12px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background-color: #d63384;
+        color: white;
+    }
+
+    /* RESET BUTTON */
+
+    .reset-button{
+        background-color: #dc3545;
+    }

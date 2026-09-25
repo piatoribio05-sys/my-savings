@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Alkansya</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>🐷 My Savings</h1>
+
+    <p>Track your savings!</p>
+
+    <!-- TOTAL SAVINGS -->
+    <div class="savings-box">
+        <h2>Total Savings</h2>
+        <h1 id="total">₱0.00</h1>
+    </div>
+
+    <!-- ADD MONEY -->
+    <div class="input-box">
+
+        <h2>Add Money</h2>
+
+        <input
+            type="number"
+            id="amount"
+            placeholder="Enter amount"
+        >
+
+        <br>
+
+        <button onclick="addSavings()">
+            Add Savings
+        </button>
+
+    </div>
+
+    <!-- RESET -->
+    <button class="reset-button" onclick="resetSavings()">
+        Reset Savings
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
